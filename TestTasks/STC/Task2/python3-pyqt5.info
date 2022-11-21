@@ -1,0 +1,30 @@
+ new Debian package, version 2.0.
+ size 2223882 bytes: control archive=2729 bytes.
+    1017 байт(а),    24 строк      control              
+    5375 байт(а),    57 строк      md5sums              
+     172 байт(а),     9 строк   *  postinst             #!/bin/sh
+     401 байт(а),    12 строк   *  prerm                #!/bin/sh
+  : python3-pyqt5
+ Source: pyqt5
+ Version: 5.7+dfsg-5
+ Architecture: amd64
+ Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+ Installed-Size: 15323
+ Depends: python3 (<< 3.6), python3 (>= 3.5~), python3:any (>= 3.3.2-2~), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libpython3.5 (>= 3.5.0~b1), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.6.0~beta), libqt5designer5 (>= 5.7.0), libqt5gui5 (>= 5.7.0), libqt5help5 (>= 5.7.0), libqt5network5 (>= 5.7.0), libqt5printsupport5 (>= 5.4.0), libqt5test5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.7.0), libqt5xml5 (>= 5.1.0), libstdc++6 (>= 5), qtbase-abi-5-7-1, sip-py3api-11.3
+ Suggests: python3-pyqt5-dbg
+ Section: python
+ Priority: optional
+ Homepage: http://www.riverbankcomputing.co.uk/software/pyqt/
+ Description: Python 3 bindings for Qt5
+  PyQt5 exposes the Qt5 API to Python 3. This package contains the following
+  modules:
+   * QtCore
+   * QtDBus
+   * QtDesigner
+   * QtGui
+   * QtHelp
+   * QtNetwork
+   * QtPrintSupport
+   * QtTest
+   * QtWidgets
+   * QtXml
